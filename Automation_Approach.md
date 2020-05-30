@@ -6,7 +6,7 @@
   - [D. Design Automation framework strategy](#d-design-automation-framework-strategy)
 
 ### [A. Overview](#a-overview): 
-- Tool selection: CodeceptJs (Refer to "Automation tool evaluation" to know why we choose this framework)
+- Tool selection: CodeceptJs (Refer to [Automation tool evaluation](https://github.com/hungdao-testing/TodoMVC/blob/master/Automation_tool_evaluation.md) to know why we choose this framework)
 - Apply “whole team” approach: Dev and QA contribute to write test scripts
 - The test script is developed based on the scenarios defined in user stories.
 - The test scripts will be executed based on incremental internal build and major build   
