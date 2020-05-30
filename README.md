@@ -68,7 +68,7 @@ This document intends to provide all team members with an overview of the testin
 2. Automation UI
    
     2.1. What to do:
-    -   Framework: Codeceptjs (please refer to)
+    -   Framework: Codeceptjs (please refer to [Automation Plan](https://github.com/hungdao-testing/TodoMVC/blob/master/Automation_Approach.md))
     -   Utilize the resources in team to write test script
 
     2.2. Goals:
