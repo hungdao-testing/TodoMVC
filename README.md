@@ -55,7 +55,7 @@ This document intends to provide all team members with an overview of the testin
 ### [E. Test Approach](#e-test-approach): 
 The QA will perform testing within the Agile workflow to verify each individual Sprint, task, component or user story as it becomes available for testing. To perform the testing activities effectively, "Shift-left testing" and "Automation" are conducted on each testable items.
 
-1. Shift-left Testing: is a method helpping team to prevent issues/defects sooners and give feedback about quality sooner.
+1. Shift-left Testing: is a method to get QA invloved early in the project, then the QA could prevent defect sooner.
 
     1.1. What to do:
       -    Carried out the review testing and risk analysis for testable tasks.
@@ -68,7 +68,7 @@ The QA will perform testing within the Agile workflow to verify each individual 
       - Team is aware of risks, and allows the team to take more ownership in quality.
       - Reduce the testing time, and give quality feedback quickly.
 
-2. Automation Testing (UI based): is a method helpping team to reduce the testing time and effort.
+2. Automation Testing (UI based): 
    
     2.1. What to do:
     -   Framework: Codeceptjs (please refer to [Automation Plan](https://github.com/hungdao-testing/TodoMVC/blob/master/Automation_Approach.md))
