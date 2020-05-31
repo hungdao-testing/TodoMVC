@@ -51,8 +51,9 @@ This document intends to provide all team members with an overview of the testin
 3. Features NOT to be tested: N/A
    
 ### [E. Test Approach](#e-test-approach): 
+The QA will perform testing within the Agile workflow to verify each individual Sprint, task, component or user story as it becomes available for testing. To perform the testing activities effectively, "Shift-left testing" and "Automation" are conducted on each testable items.
 
-1. Shift-left Testing
+1. Shift-left Testing: is a method helpping team to prevent issues/defects sooners and give feedback about quality sooner.
 
     1.1. What to do:
       -    Carried out the review testing and risk analysis for testable tasks.
@@ -65,7 +66,7 @@ This document intends to provide all team members with an overview of the testin
       - Team is aware of risks, and allows the team to take more ownership in quality.
       - Reduce the testing time, and give quality feedback quickly.
 
-2. Automation UI
+2. Automation Testing (UI based): is a method helpping team to reduce the testing time and effort.
    
     2.1. What to do:
     -   Framework: Codeceptjs (please refer to [Automation Plan](https://github.com/hungdao-testing/TodoMVC/blob/master/Automation_Approach.md))
@@ -76,12 +77,14 @@ This document intends to provide all team members with an overview of the testin
     -   Reduce the testing efforts.
 
 ### [F. Entrance and Exit criteria](#f-entrance-and-exit-criteria)
-QA and team will work together to identify a schedule for delivering each Sprint or task as it is completed so that we achieve the greatest quality in the shortest possible time. Each task MUST follow the criterias below
+Testing process is a part of Development cycle in Agile model. QA and team will work together to identify a schedule for delivering each Sprint or task as it is completed so that we achieve the greatest quality in the shortest possible time. Before doing or releasing builds, we must follow the Definition Of Done (DOD) and Definition of Ready (DOR) in project plan, here are outstanding points related to quality:
 
-1. Entrance Criteria (the conditions to test the tasks)
-   -   The tasks must have unit-test.
-   -   Passed for Acceptance Checklists described in tasks.
+1. DOR (the conditions to test the tasks)
+   -   The tasks must described clearly what could be tested and what could not be tested.
+   -   All blockers and dependencies are resolved completedly.
+   -   Before releasing the tasks to QA team, they must satisfy the quality coverage at Unit test level.
+   -   Before releasing the tasks to QA team, they must be passed the acceptance criterias. If NOT, please list out what items are done.
 
-2. Exit Criteria (the conditions to mark the tasks done)
+2. DOD (the conditions to mark the tasks done)
    - All test cases are executed.
    - No major defects remain.
