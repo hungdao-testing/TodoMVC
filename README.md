@@ -47,6 +47,8 @@ This document intends to provide all team members with an overview of the testin
     | 4   | Filter task by Active   | 3        |
     | 5   | Filter task by Complete | 3        |
     | 6   | Filter task by All      | 3        |
+    
+  Notes: The less priority is, the more important feature is 
 
 3. Features NOT to be tested: N/A
    
